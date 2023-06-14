@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search Cost Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/themes/2153416037/settings_images/0a1ac0a-ec7-b020-f4cb-267615e376d2_2.png" alt="Logo" class="logo">
+            <h1>How much is your job search costing you?</h1>
+            <div class="alert alert-primary" role="alert">
+                Type in your target annual salary to determine how much your job search is costing you over time.
+            </div>
+            <input type="text" id="salary-input" class="form-control" placeholder="Target Annual Salary (Or Most Recent Salary)">
+            <button id="calculate-button" class="btn btn-primary btn-block">Calculate Missed Earnings Over Time</button>
+        </div>
+    </section>
+    <div id="result-modal" class="modal">
+        <div class="modal-content">
+            <h3>Missed Income Over Time Based on Salary</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Length of Time</th>
+                        <th>Missed Earnings</th>
+                    </tr>
+                </thead>
+                <tbody id="result-table">
+                </tbody>
+            </table>
+            <div class="alert alert-primary text-center w-100" role="alert">
+                Struggling with your job search? Power up today! Work smarter by supercharging your LinkedIn, resume, email, and interview skills.
+            </div>
+            <a href="https://izzydoesizzy.gumroad.com/l/zqvhh" class="btn btn-success" target="_blank">Get the "ChatGPT Job Search Power Pack"</a>
+        </div>
+    </div>
+    <footer>
+        Created with care by <a href="https://www.linkedin.com/in/izzydoesizzy/">Izzy Piyale-Sheard</a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
